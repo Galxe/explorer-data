@@ -1,0 +1,25 @@
+{
+  "version": "jugge.policy.v1",
+  "instructions": "Task longevity-testnet-arithmetic-2026-09-28: answer the question in the input using its context and elementary arithmetic. Select exactly one listed option ID. Do not claim to have used external sources or invent evidence. Call submit_result with a concise Chinese explanation and empty evidenceIds.",
+  "result": {
+    "type": "DISCRETE",
+    "options": [
+      { "id": "OPTION_1", "description": "5" },
+      { "id": "OPTION_2", "description": "6" },
+      { "id": "OPTION_3", "description": "7" }
+    ]
+  },
+  "execution": {
+    "profile": { "id": "jugge.reference.v1", "version": "0.1.0" },
+    "budgets": {
+      "turns": 4,
+      "tokens": 30000,
+      "wallTimeMs": 180000,
+      "hostCalls": 32,
+      "bytesIn": 1048576,
+      "bytesOut": 1048576,
+      "capabilityCalls": 32,
+      "costMicrousd": 1000000
+    }
+  }
+}

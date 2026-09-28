@@ -1,0 +1,10 @@
+{
+  "taskId": "longevity-testnet-arithmetic-2026-09-28",
+  "question": "2 + 3 等于多少？",
+  "context": "整数加法。",
+  "choices": [
+    { "id": "OPTION_1", "description": "5" },
+    { "id": "OPTION_2", "description": "6" },
+    { "id": "OPTION_3", "description": "7" }
+  ]
+}
